@@ -10,3 +10,12 @@ RefactoringAction 1497002792370 PlanetExplorer.java ADD String obstacles FIELD
 EditAction 1497002845413 PlanetExplorer.java 1354 2 4 0
 RefactoringAction 1497002891805 PlanetExplorer.java ADD String facing FIELD
 EditAction 1497002909384 TestPlanetExplorer.java 315 2 3 1
+CompilationAction 1497002912866 TestPlanetExplorer.java
+CompilationAction 1497002912867 TestPlanetExplorer.java
+CompilationAction 1497002912869 TestPlanetExplorer.java
+CompilationAction 1497002914952 TestPlanetExplorer.java
+CompilationAction 1497002914953 TestPlanetExplorer.java
+CompilationAction 1497002914954 TestPlanetExplorer.java
+RefactoringAction 1497002991228 TestPlanetExplorer.java ADD void obstacles FIELD
+RefactoringAction 1497003003248 TestPlanetExplorer.java RENAME obstacles=>void obstacles() METHOD
+EditAction 1497003115279 TestPlanetExplorer.java 466 3 7 1

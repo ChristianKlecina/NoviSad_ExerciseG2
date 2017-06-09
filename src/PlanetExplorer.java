@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	private int x,y;
+	private String facing = "N";
 	private String obstacles;
 	
 	public PlanetExplorer(int x, int y, String obstacles){

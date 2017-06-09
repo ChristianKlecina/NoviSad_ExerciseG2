@@ -17,5 +17,13 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void
+	public void obstacles(){
+		int gridX=3;
+		int gridY=3;
+		String obstacles = "(1,1)";
+		
+		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
+		
+		
+	}
 }
