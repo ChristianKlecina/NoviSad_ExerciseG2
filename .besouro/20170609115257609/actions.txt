@@ -8,3 +8,5 @@ RefactoringAction 1497002779735 PlanetExplorer.java ADD int x FIELD
 RefactoringAction 1497002782766 PlanetExplorer.java ADD int y FIELD
 RefactoringAction 1497002792370 PlanetExplorer.java ADD String obstacles FIELD
 EditAction 1497002845413 PlanetExplorer.java 1354 2 4 0
+RefactoringAction 1497002891805 PlanetExplorer.java ADD String facing FIELD
+EditAction 1497002909384 TestPlanetExplorer.java 315 2 3 1
