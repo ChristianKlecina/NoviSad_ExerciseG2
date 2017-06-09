@@ -29,7 +29,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void positions(){
+	public void positionsForward(){
 		int gridX=3;
 		int gridY=3;
 		String obstacles = "(2,2)";
@@ -37,6 +37,18 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
 		
 		assertEquals("(1,0,N)",pe.executeCommand("f") );
+	}
+	
+	
+	@Test
+	public void positionsBackward(){
+		int gridX=3;
+		int gridY=3;
+		String obstacles = "(2,2)";
+		
+		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
+		
+		assertEquals("(-1,0,N)",pe.executeCommand("b") );
 	}
 	
 	

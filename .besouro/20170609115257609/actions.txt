@@ -47,3 +47,4 @@ RefactoringAction 1497004456695 TestPlanetExplorer.java RENAME positions()=>void
 RefactoringAction 1497004461875 TestPlanetExplorer.java ADD void positionsForward()/2 METHOD
 RefactoringAction 1497004466024 TestPlanetExplorer.java RENAME positionsForward()/2=>void positionsBackward() METHOD
 EditAction 1497004543063 PlanetExplorer.java 1643 2 6 0
+EditAction 1497004568634 TestPlanetExplorer.java 951 5 18 4
