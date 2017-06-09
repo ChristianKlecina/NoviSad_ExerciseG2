@@ -32,7 +32,7 @@ public class TestPlanetExplorer {
 	public void positions(){
 		int gridX=3;
 		int gridY=3;
-		String obstacles = "(1,1)";
+		String obstacles = "(2,2)";
 		
 		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
 		
