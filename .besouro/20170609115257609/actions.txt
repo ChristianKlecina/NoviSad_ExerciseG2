@@ -4,3 +4,7 @@ RefactoringAction 1497002324349 TestPlanetExplorer.java ADD void constur FIELD
 RefactoringAction 1497002327378 TestPlanetExplorer.java RENAME constur=>void consturctorTest FIELD
 RefactoringAction 1497002328412 TestPlanetExplorer.java RENAME consturctorTest=>void consturctorTest() METHOD
 EditAction 1497002696837 TestPlanetExplorer.java 293 2 3 1
+RefactoringAction 1497002779735 PlanetExplorer.java ADD int x FIELD
+RefactoringAction 1497002782766 PlanetExplorer.java ADD int y FIELD
+RefactoringAction 1497002792370 PlanetExplorer.java ADD String obstacles FIELD
+EditAction 1497002845413 PlanetExplorer.java 1354 2 4 0
