@@ -44,6 +44,8 @@ public class PlanetExplorer {
 			if(command == "f"){
 				pos_x+=1;
 				
+			} else if (command == "b"){
+				pos_x-=1;
 			}
 			
 		}

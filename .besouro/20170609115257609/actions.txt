@@ -43,3 +43,7 @@ EditAction 1497004404977 TestPlanetExplorer.java 712 4 13 3
 UnitTestCaseAction 1497004430906 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004430906 TestPlanetExplorer.java FAIL
 EditAction 1497004442170 TestPlanetExplorer.java 712 4 13 3
+RefactoringAction 1497004456695 TestPlanetExplorer.java RENAME positions()=>void positionsForward() METHOD
+RefactoringAction 1497004461875 TestPlanetExplorer.java ADD void positionsForward()/2 METHOD
+RefactoringAction 1497004466024 TestPlanetExplorer.java RENAME positionsForward()/2=>void positionsBackward() METHOD
+EditAction 1497004543063 PlanetExplorer.java 1643 2 6 0
