@@ -33,7 +33,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
 		
-		assertEquals("(1,0,N)",pe.executeCommand("f") );
+		assertEquals("(0,1,N)",pe.executeCommand("f") );
 	}
 	
 	
@@ -45,7 +45,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
 		
-		assertEquals("(-1,0,N)",pe.executeCommand("b") );
+		assertEquals("(0,-1,N)",pe.executeCommand("b") );
 	}
 	
 	@Test
@@ -68,6 +68,20 @@ public class TestPlanetExplorer {
 		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
 		
 		assertEquals("(0,0,R)",pe.executeCommand("r") );
+	}
+	
+	@Test
+	public void spheric(){
+		int gridX=3;
+		int gridY=3;
+		
+		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, "");
+		assertEquals("(0,1,N)",pe.executeCommand("f") );
+		assertEquals("(0,2,N)",pe.executeCommand("f") );
+		assertEquals("(0,3,N)",pe.executeCommand("f") );
+		assertEquals("(0,0,N)",pe.executeCommand("f") );
+		
+		
 	}
 	
 	

@@ -64,3 +64,6 @@ EditAction 1497004911075 TestPlanetExplorer.java 1402 7 28 6
 UnitTestCaseAction 1497004918048 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1497004918048 TestPlanetExplorer.java FAIL
 EditAction 1497004953961 TestPlanetExplorer.java 1326 6 27 6
+RefactoringAction 1497005048332 TestPlanetExplorer.java ADD void spheric FIELD
+RefactoringAction 1497005050937 TestPlanetExplorer.java RENAME spheric=>void spheric() METHOD
+EditAction 1497005130531 TestPlanetExplorer.java 1664 7 34 10
