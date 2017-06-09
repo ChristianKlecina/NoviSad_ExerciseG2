@@ -27,3 +27,6 @@ RefactoringAction 1497003303225 PlanetExplorer.java ADD int pos_x FIELD
 RefactoringAction 1497003306391 PlanetExplorer.java ADD int pos FIELD
 RefactoringAction 1497003309012 PlanetExplorer.java RENAME pos=>int pos_y FIELD
 EditAction 1497003476325 PlanetExplorer.java 1546 2 6 0
+CompilationAction 1497003479851 PlanetExplorer.java
+CompilationAction 1497003624499 PlanetExplorer.java
+EditAction 1497003696509 PlanetExplorer.java 1546 2 6 0

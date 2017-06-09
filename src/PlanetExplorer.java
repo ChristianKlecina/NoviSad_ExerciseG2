@@ -38,11 +38,12 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String[] cmd;
+		char[] cmd;
 		for(int i=0; i<command.length(); i++){
 			cmd[i]=command.toCharArray();
-			
 		}
+		
+		
 		
 		return "("+pos_x+","+pos_y+","+facing+")";
 	}
