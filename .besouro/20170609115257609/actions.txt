@@ -1,0 +1,6 @@
+FileOpenedAction 1497001978083 PlanetExplorer.java 1245 2 1 0
+FileOpenedAction 1497002054635 TestPlanetExplorer.java 174 1 1 0
+RefactoringAction 1497002324349 TestPlanetExplorer.java ADD void constur FIELD
+RefactoringAction 1497002327378 TestPlanetExplorer.java RENAME constur=>void consturctorTest FIELD
+RefactoringAction 1497002328412 TestPlanetExplorer.java RENAME consturctorTest=>void consturctorTest() METHOD
+EditAction 1497002696837 TestPlanetExplorer.java 293 2 3 1
