@@ -62,5 +62,16 @@ public class TestPlanetExplorer {
 		assertEquals("(0,0,E)",pe.executeCommand("r") );
 	}
 	
+	@Test
+	public void positionsLeft(){
+		int gridX=3;
+		int gridY=3;
+		String obstacles = "(2,2)";
+		
+		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
+		
+		assertEquals("(0,0,R)",pe.executeCommand("r") );
+	}
+	
 	
 }

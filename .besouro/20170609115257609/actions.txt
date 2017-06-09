@@ -54,3 +54,10 @@ RefactoringAction 1497004596356 TestPlanetExplorer.java ADD void positions FIELD
 RefactoringAction 1497004597932 TestPlanetExplorer.java RENAME positions=>void positionsRight FIELD
 RefactoringAction 1497004598977 TestPlanetExplorer.java RENAME positionsRight=>void positionsRight() METHOD
 EditAction 1497004681835 TestPlanetExplorer.java 1177 6 23 5
+UnitTestCaseAction 1497004825347 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004825363 TestPlanetExplorer.java FAIL
+RefactoringAction 1497004833880 TestPlanetExplorer.java ADD void positionsRight()/2 METHOD
+RefactoringAction 1497004838016 TestPlanetExplorer.java RENAME positionsRight()/2=>void positionsLeft() METHOD
+CompilationAction 1497004866814 PlanetExplorer.java
+CompilationAction 1497004878314 PlanetExplorer.java
+EditAction 1497004911075 TestPlanetExplorer.java 1402 7 28 6

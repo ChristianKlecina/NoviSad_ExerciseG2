@@ -50,6 +50,15 @@ public class PlanetExplorer {
 			
 		}
 		
+		for(int i = 0; i<cmd.length; i++){
+			if(command == "r"){
+				facing = "E";
+				
+			} else if (command == "l"){
+				facing = "W";
+			}
+		}
+		
 		
 		
 		
