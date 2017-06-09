@@ -24,9 +24,16 @@ public class PlanetExplorer {
 		
 	}
 	
-	public void sphericY(int pos_y){
-		if(pos_y == 4){
-			pos_y=0;
+	public void sphericForward(int pos_y){
+		if(pos_y >3 ){
+			this.pos_y=0;
+		}
+		
+	}
+	
+	public void sphericBack(int pos_y){
+		if(pos_y <0 ){
+			this.pos_y=3;
 		}
 		
 	}
@@ -48,13 +55,16 @@ public class PlanetExplorer {
 		char[] cmd = command.toCharArray();
 		for(int i=0; i<command.length(); i++){
 			
-			if(command == "f"){
+		
+			
+			if(cmd[i] == 'f'){
 				
 				pos_y+=1;
-				sphericY(pos_y);
+				sphericForward(pos_y);
 				
-			} else if (command == "b"){
+			} else if (cmd[i] == 'b'){
 				pos_y-=1;
+				sphericBack(pos_y);
 			}
 			
 		}
