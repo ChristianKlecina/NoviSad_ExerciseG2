@@ -61,3 +61,6 @@ RefactoringAction 1497004838016 TestPlanetExplorer.java RENAME positionsRight()/
 CompilationAction 1497004866814 PlanetExplorer.java
 CompilationAction 1497004878314 PlanetExplorer.java
 EditAction 1497004911075 TestPlanetExplorer.java 1402 7 28 6
+UnitTestCaseAction 1497004918048 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497004918048 TestPlanetExplorer.java FAIL
+EditAction 1497004953961 TestPlanetExplorer.java 1326 6 27 6
