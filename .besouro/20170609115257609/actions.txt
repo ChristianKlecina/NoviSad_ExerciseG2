@@ -19,3 +19,7 @@ CompilationAction 1497002914954 TestPlanetExplorer.java
 RefactoringAction 1497002991228 TestPlanetExplorer.java ADD void obstacles FIELD
 RefactoringAction 1497003003248 TestPlanetExplorer.java RENAME obstacles=>void obstacles() METHOD
 EditAction 1497003115279 TestPlanetExplorer.java 466 3 7 1
+RefactoringAction 1497003134405 TestPlanetExplorer.java ADD void movingForward FIELD
+RefactoringAction 1497003137025 TestPlanetExplorer.java RENAME movingForward=>void movingForward() METHOD
+RefactoringAction 1497003232083 TestPlanetExplorer.java RENAME movingForward()=>void positions() METHOD
+EditAction 1497003285236 TestPlanetExplorer.java 708 4 13 3
