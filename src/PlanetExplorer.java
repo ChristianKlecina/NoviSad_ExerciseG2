@@ -24,6 +24,13 @@ public class PlanetExplorer {
 		
 	}
 	
+	public void sphericY(int pos_y){
+		if(pos_y == 4){
+			pos_y=0;
+		}
+		
+	}
+	
 	
 	
 	public String executeCommand(String command){
@@ -42,10 +49,11 @@ public class PlanetExplorer {
 		for(int i=0; i<command.length(); i++){
 			
 			if(command == "f"){
-				pos_x+=1;
+				sphericY(pos_y);
+				pos_y+=1;
 				
 			} else if (command == "b"){
-				pos_x-=1;
+				pos_y-=1;
 			}
 			
 		}

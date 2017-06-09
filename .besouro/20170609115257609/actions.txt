@@ -72,3 +72,8 @@ RefactoringAction 1497005152981 PlanetExplorer.java RENAME sphericX=>void spheri
 RefactoringAction 1497005162809 PlanetExplorer.java RENAME sphericX()=>void sphericX(int) METHOD
 RefactoringAction 1497005175727 TestPlanetExplorer.java RENAME spheric()=>void sphericX() METHOD
 EditAction 1497005175774 TestPlanetExplorer.java 1665 7 34 10
+RefactoringAction 1497005250392 TestPlanetExplorer.java RENAME sphericX()=>void sphericY() METHOD
+RefactoringAction 1497005254323 PlanetExplorer.java RENAME sphericX(int)=>void sphericY(int) METHOD
+CompilationAction 1497005266538 PlanetExplorer.java
+CompilationAction 1497005272250 PlanetExplorer.java
+EditAction 1497005329020 TestPlanetExplorer.java 1665 7 34 10
