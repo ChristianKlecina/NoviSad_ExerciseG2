@@ -38,4 +38,6 @@ public class TestPlanetExplorer {
 		
 		assertEquals("(0,0,N)",pe.executeCommand("f") );
 	}
+	
+	
 }
