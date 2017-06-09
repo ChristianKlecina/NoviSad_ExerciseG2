@@ -77,3 +77,8 @@ RefactoringAction 1497005254323 PlanetExplorer.java RENAME sphericX(int)=>void s
 CompilationAction 1497005266538 PlanetExplorer.java
 CompilationAction 1497005272250 PlanetExplorer.java
 EditAction 1497005329020 TestPlanetExplorer.java 1665 7 34 10
+UnitTestCaseAction 1497005333608 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005333608 TestPlanetExplorer.sphericY FAIL
+UnitTestCaseAction 1497005362640 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1497005362640 TestPlanetExplorer.java FAIL
+EditAction 1497005388149 TestPlanetExplorer.java 1665 7 34 10

@@ -67,7 +67,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
 		
-		assertEquals("(0,0,R)",pe.executeCommand("r") );
+		assertEquals("(0,0,E)",pe.executeCommand("r") );
 	}
 	
 	@Test

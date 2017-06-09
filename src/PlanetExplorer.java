@@ -49,8 +49,9 @@ public class PlanetExplorer {
 		for(int i=0; i<command.length(); i++){
 			
 			if(command == "f"){
-				sphericY(pos_y);
+				
 				pos_y+=1;
+				sphericY(pos_y);
 				
 			} else if (command == "b"){
 				pos_y-=1;
