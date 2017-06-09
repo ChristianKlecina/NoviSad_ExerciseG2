@@ -36,7 +36,7 @@ public class TestPlanetExplorer {
 		
 		PlanetExplorer pe = new PlanetExplorer(gridX,gridY, obstacles);
 		
-		assertEquals("(0,0,N)",pe.executeCommand("f") );
+		assertEquals("(1,0,N)",pe.executeCommand("f") );
 	}
 	
 	
