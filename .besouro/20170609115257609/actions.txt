@@ -67,3 +67,8 @@ EditAction 1497004953961 TestPlanetExplorer.java 1326 6 27 6
 RefactoringAction 1497005048332 TestPlanetExplorer.java ADD void spheric FIELD
 RefactoringAction 1497005050937 TestPlanetExplorer.java RENAME spheric=>void spheric() METHOD
 EditAction 1497005130531 TestPlanetExplorer.java 1664 7 34 10
+RefactoringAction 1497005151389 PlanetExplorer.java ADD void sphericX FIELD
+RefactoringAction 1497005152981 PlanetExplorer.java RENAME sphericX=>void sphericX() METHOD
+RefactoringAction 1497005162809 PlanetExplorer.java RENAME sphericX()=>void sphericX(int) METHOD
+RefactoringAction 1497005175727 TestPlanetExplorer.java RENAME spheric()=>void sphericX() METHOD
+EditAction 1497005175774 TestPlanetExplorer.java 1665 7 34 10

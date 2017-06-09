@@ -71,7 +71,7 @@ public class TestPlanetExplorer {
 	}
 	
 	@Test
-	public void spheric(){
+	public void sphericX(){
 		int gridX=3;
 		int gridY=3;
 		
