@@ -23,3 +23,7 @@ RefactoringAction 1497003134405 TestPlanetExplorer.java ADD void movingForward F
 RefactoringAction 1497003137025 TestPlanetExplorer.java RENAME movingForward=>void movingForward() METHOD
 RefactoringAction 1497003232083 TestPlanetExplorer.java RENAME movingForward()=>void positions() METHOD
 EditAction 1497003285236 TestPlanetExplorer.java 708 4 13 3
+RefactoringAction 1497003303225 PlanetExplorer.java ADD int pos_x FIELD
+RefactoringAction 1497003306391 PlanetExplorer.java ADD int pos FIELD
+RefactoringAction 1497003309012 PlanetExplorer.java RENAME pos=>int pos_y FIELD
+EditAction 1497003476325 PlanetExplorer.java 1546 2 6 0

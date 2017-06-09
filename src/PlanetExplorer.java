@@ -5,6 +5,7 @@
 
 public class PlanetExplorer {
 	private int x,y;
+	private int pos_x, pos_y = 0;
 	private String facing = "N";
 	private String obstacles;
 	
@@ -37,6 +38,12 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		return null;
+		String[] cmd;
+		for(int i=0; i<command.length(); i++){
+			cmd[i]=command.toCharArray();
+			
+		}
+		
+		return "("+pos_x+","+pos_y+","+facing+")";
 	}
 }
